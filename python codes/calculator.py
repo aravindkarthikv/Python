@@ -1,0 +1,18 @@
+#calculator
+num1=int(input("Enter 1st number ="))
+num2=int(input("Enter 2nd number ="))
+addition=(num1+num2)
+subtraction=(num1-num2)
+multiplication=(num1*num2)
+division=int(num1/num2)
+remainder=(num1%num2)
+exponent=(num1**num2)
+div=(num1//num2)
+print("sum is " +str(addition))
+print("difference is " +str(subtraction))
+print("product is " +str(multiplication))
+print("quotient is " +str(division))
+print("quotient is " +str(div))
+print("remainder is " +str(remainder))
+print("Exponent is " +str(exponent))
+
