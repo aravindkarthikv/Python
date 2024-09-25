@@ -5,7 +5,7 @@ minimum = min(list1)
 print(f"The biggest number in the list is {maximum}")
 print(f"the smallest number in the list is {minimum}")"""
 #
-def maximum_and_minimum(list1):
+"""def maximum_and_minimum(list1):
     maximum = max(list1)
     minimum = min(list1)
     return f"The biggest number is {maximum} and the smallest is {minimum}"
@@ -60,10 +60,70 @@ class Rectangle:
 R1 = Rectangle(28,12)
 R2 = Rectangle(20,8)
 print("Area of Rectangle: ", R1.calculate_area() )
-print("Area of Rectangle2: ", R2.calculate_area())
+print("Area of Rectangle2: ", R2.calculate_area())"""
 
 
+#Write a program to print all even numbers from 1 to 50 using a for loop:
 
+"""for x in range(1,51):
+    if x%2 == 0:
+        print(x)"""
 
+#
 
+"""for x in range(1,6):
+    print("*"*x)"""
     
+    
+#10 times:
+for x in range(1,11):
+    print('*'*x)
+
+#Take a string input from the user and count how many vowels are present in the string using a for loop:
+
+'''string = input("Enter a String:")
+vowel_count = 0
+
+for char in string:
+    if char in "aeiouAEIOU" :
+        vowel_count+=1
+        print(char)
+
+print(f"no. of vowels - {vowel_count}")'''
+
+#Take a character as input from the user and check whether it is a vowel or a consonant:
+
+word = input("Enter a Letter:")
+if len(word) == 1 and word.isalpha():
+    if word in "aeiouAEIOU":
+        print(f"{word} is a vowel")
+    else:
+        print(f"{word} is a consonant")
+
+else:
+    print("Invalid Input,Try again")
+
+#
+i = 1
+while i<=50:
+    print(i)
+    i+=1
+'''age = input("Enter your age: ")
+if age == int:
+    if age>=18:
+        print("You are eligible to vote")
+    else:
+        print("You are not eligible to vote")
+
+else:
+    print("Invalid Input,enter your age in integers")'''
+
+#Create a program that asks the user for a number and prints the multiplication table of that number using a while loop.
+i = int(input("enter a number:"))
+b = 1
+while b<=10:
+    product = i * b
+    print(product)
+    b+=1
+
+
